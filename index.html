@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+
+    <!-- Title -->
+    <title>Dice Game</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="main-container">
+        <div class="player-1 active">
+          <div class="player-name">Player 1</div>
+          <div class="score" id="score-1">0</div>
+          <div class="current-score-box">
+            <p class="current-text">Current</p>
+            <p class="current-score" id="current-score-1">0</p>
+          </div>
+        </div>
+        <div class="player-2">
+          <div class="player-name">Player 2</div>
+          <div class="score" id="score-2">0</div>
+          <div class="current-score-box">
+            <p class="current-text">Current</p>
+            <p class="current-score" id="current-score-2">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn new-game">
+          <span class="emoji">🔁</span> New Game
+        </button>
+        <img src="./images/dice-5.png" alt="Dice Roll" class="dice-image" />
+        <button class="btn roll-dice">
+          <span class="emoji">🎲</span> Roll Dice
+        </button>
+        <button class="btn hold"><span class="emoji">⏱</span> Hold</button>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #440a67, #93329e);
+  color: #333;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5% 0;
+}
+
+.main-container {
+  display: flex;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (min-width: 600px) {
+  .main-container {
+    min-height: 75vh;
+    min-width: 85vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-container {
+    min-height: 75vh;
+    min-width: 70vw;
+  }
+}
+
+.player-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  min-height: inherit;
+  padding: 3rem 2rem;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px 0 0 10px;
+}
+
+.player-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  min-height: inherit;
+  padding: 3rem 2rem;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0 10px 10px 0;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+}
+
+.player-name {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.score {
+  font-size: 6rem;
+  color: #93329e;
+  font-weight: normal;
+}
+
+.current-score-box {
+  min-width: 50%;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #93329e;
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  margin-top: 25%;
+}
+
+.current-score-box .current-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.current-score-box .current-score {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.dice-image {
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.3);
+}
+
+.emoji {
+  font-size: 1.25rem;
+  padding-right: 7px;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  width: max-content;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transition: 250ms;
+  transform: scale(1.05);
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 992px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .buttons .new-game {
+    margin-bottom: 5rem;
+  }
+
+  .buttons .dice-image {
+    margin-bottom: 5rem;
+  }
+
+  .buttons .roll-dice {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+  }
+
+  .buttons .new-game {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+
+  .buttons .dice-image {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+
+  .buttons .roll-dice {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+  }
+
+  .buttons .hold {
+    margin-bottom: 2rem;
+  }
+}
