@@ -1,6 +1,12 @@
 # Dice Game
 
-This dice game is actually a two player game. 
+This dice game is a two player game. Here one player rolls a dice and keep on rolling until he/she gets a `1` or holds. Then other player gets the opportunity to toll the dice. Game continues until any one player gets a total score of `100` points.
+
+> Technologies used: JavaScript, HTML, CSS
+
+Link: [Play Game](https://deepeshjaindj.github.io/dice-game/)
+
+~~Responsive for Mobile~~
 
 ### --RULES--
 - This game starts with player 1 as active player. 
