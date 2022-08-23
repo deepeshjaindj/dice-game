@@ -1,7 +1,8 @@
-#Dice Game
+# Dice Game
+
 This dice game is actually a two player game. 
 
-**--RULES--** <br>
+### --RULES--
 - This game starts with player 1 as active player. 
 - Player 1 rolls the dice and gets a number. 
 - That number is added to the current score. 
@@ -11,16 +12,17 @@ This dice game is actually a two player game.
 - If active player do not hold and get a 1 in the dice roll then all the current score will be lost and player will switch automatically. 
 The same condition applies to player 2 as well.
 
-**--WINNING CONDITION--** <br>
+### **--WINNING CONDITION--** <br>
 The first player to reach a final score of 100 will win the game. 
+<br>
 <br>
 So challenge your friend too in this dice game and be the ultimate winner.
 
-_Loved the game?_
+***Loved the game?***
 
-***Follow me:***
+#### Follow me:
 GitHub: @deepshjaindj (https://github.com/deepeshjaindj) <br>
 LinkedIn: https://www.linkedin.com/in/deepeshjain-dj <br>
-Twitter: @deepeshjaindj2 <br>
+Twitter: @deepeshjaindj2 (https://twitter.com/DeepeshJainDJ2) <br>
 Instagram: @deepeshjaindj (Non Professional) - (https://www.instagram.com/deepeshjaindj/)
 
