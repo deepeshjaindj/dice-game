@@ -22,5 +22,5 @@ Follow me:
 GitHub: @deepshjaindj (https://github.com/deepeshjaindj)
 Twitter: @deepeshjaindj2
 Instagram: @deepeshjaindj (Non Professional) - (https://www.instagram.com/deepeshjaindj/)
-LinkedIn: https://www.linkedin.com/in/deepesh-jain-dj-3579191a5
+LinkedIn: https://www.linkedin.com/in/deepeshjain-dj
 
